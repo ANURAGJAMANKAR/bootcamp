@@ -6,7 +6,7 @@ build-backend = "hatchling.build"
 name = "anurag-hello"
 version = "0.3.0"
 authors = [
-    {name = "ANURAGJAMANKAR", email = "white.demon.aj@gmail.com"},
+    {name = "ANURAG JAMANKAR", email = "anurag.jamankar.aj@gmail.com"},
 ]
 description = "This module provides a basic greeting functionality that takes a user's name and returns a personalized message. The output is enhanced using the rich library for better formatting, and the module is converted into a CLI tool using typer, enabling terminal-based interaction."
 readme = "README.md"
