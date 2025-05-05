@@ -8,7 +8,7 @@ version = "0.1.0"
 authors = [
     {name = "ANURAGJAMANKAR", email = "white.demon.aj@gmail.com"},
 ]
-description = "A simple hello world package"
+description = "A simple hello world package with rich formatting"
 readme = "README.md"
 requires-python = ">=3.13"
 classifiers = [
@@ -16,7 +16,9 @@ classifiers = [
     "License :: OSI Approved :: MIT License",
     "Operating System :: OS Independent",
 ]
+dependencies = [
+    "rich>=13.0.0",
+]
 
 [project.urls]
-"Homepage" = "https://github.com/ANURAGJAMANKAR/anurag-hello"
-"Bug Tracker" = "https://github.com/ANURAGJAMANKAR/anurag-hello/issues"
+"Homepage" = "https://github.com/ANURAGJAMANKAR/bootcamp/tree/183cdceaf439c47ba52c7e47690e72daab537402/day_zero"
