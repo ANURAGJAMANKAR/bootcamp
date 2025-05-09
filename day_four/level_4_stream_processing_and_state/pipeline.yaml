@@ -1,0 +1,9 @@
+pipeline:
+  - type: processors.upper.to_uppercase
+  - type: core.LineCounter
+    params:
+      start: 1
+      prefix: "[{line_num}] "
+  - type: core.LineSplitter
+    params:
+      delimiter: ","
