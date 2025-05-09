@@ -9,22 +9,12 @@ dependencies = [
     "rich>=13.0.0",
 ]
 
-[tool.uv]
-python = "3.13"
-
 [tool.uv.workspace]
 members = [
+    "day_zero",
     "day_one",
+    "day_four",
+    "day_two",
+    "day_four/level_2_modular_structure_and_standardized_processing",
+    "day_four/level_3_ynamic_config_driven_pipeline",
 ]
-
-[tool.setuptools]
-package-dir = { "" = "." }
-
-[tool.setuptools.packages.find]
-where = ["Day_Zero", "Setup_test"]
-
-[project.scripts]
-# Optional: expose submodule CLI at top level
-anurag-hello = "Day_Zero.anurag_hello.cli:main"
-
-
