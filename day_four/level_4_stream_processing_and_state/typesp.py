@@ -1,3 +1,4 @@
+# types.py
 from typing import Callable, Dict, Iterator, List, Any, Protocol, TypeVar
 
 # Define the old processor function type

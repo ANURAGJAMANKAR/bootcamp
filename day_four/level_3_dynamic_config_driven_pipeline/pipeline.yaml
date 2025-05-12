@@ -1,0 +1,6 @@
+# This YAML defines the sequence of text processors to apply.
+# Each processor is referenced by its full Python import path.
+
+pipeline:
+  - type: processors.snake.to_snakecase   # Convert to snake_case
+  - type: processors.upper.to_uppercase   # Then convert to UPPERCASE

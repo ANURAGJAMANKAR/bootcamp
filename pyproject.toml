@@ -17,4 +17,10 @@ members = [
     "day_two",
     "day_four/level_2_modular_structure_and_standardized_processing",
     "day_four/level_3_ynamic_config_driven_pipeline",
+    "day_four/level_7_observability_and_system_introspection",
+    "day_four/level_8_automated_folder_monitor_and_recovery",
+    "day_four/final_project_wrapup_realtime_file_processing_system",
+    "day_four/level_4_stream_processing_and_state",
+    "day_four/level_5_dag_routing_and_conditional_flows",
+    "day_four/level_6_statebased_routing_system",
 ]

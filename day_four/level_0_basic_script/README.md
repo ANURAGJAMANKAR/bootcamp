@@ -1,38 +1,74 @@
-# Level 0: Basic Script (No Abstraction)
+# 🧾 Text Processing Script — Level 0
 
-This is the starting point of our journey - a simple, single-purpose script with no abstraction.
+**Author:** ANURAG  
+**Level:** 0 — Basic Script (No Abstraction)  
+**Filename:** `process.py`  
 
-## 📝 Task
+## 📌 Description
 
-The script in this directory:
+This is a minimal, single-purpose Python script designed to perform basic text transformation from standard input (stdin) to standard output (stdout). It represents **Level 0** of an incremental software design journey, starting with a quick, unrefactored solution.
 
-- Reads stdin line by line
+### 🔧 What it Does
+
+The script:
+- Reads input line-by-line from `stdin`
 - Strips leading and trailing whitespace from each line
-- Converts the result to uppercase
-- Prints the processed lines to stdout
+- Converts each cleaned line to **uppercase**
+- Prints the result to `stdout`
 
-## 📋 Implementation
+## 📁 File Structure
 
-The implementation is in a single file named `process.py` with no functions or modules - just sequential, top-to-bottom code.
+```
 
-## 🔍 Key Constraints
+level_0_basic_script
+├── process.py     # The main script
+├── input.txt      # (Optional) Sample input file
+├── output.txt     # (Optional) Captured output
+└── README.md      # Project documentation
 
-- No functions or abstractions
-- Only Python built-in tools
-- Sequential, procedural code
+````
 
-## 🚀 Usage
+## ▶️ Usage
 
-\`\`\`bash
+### 1. Prepare your input file (optional):
+
+```
+echo "  hello world  " > input.txt
+```
+
+```
 cat input.txt | python process.py > output.txt
-\`\`\`
+```
 
-## ✅ Checklist
+### 2. Run the script from the command line:
 
-- [ ] Script produces expected output for sample files
-- [ ] Runs without errors from the command line
-- [ ] No premature abstractions or refactoring
+```
+python3 process.py < input.txt > output.txt
+```
 
-## 🔄 Next Steps
+### 3. Check the output:
 
-In the next level, we'll add parameters and a CLI interface to make this script more flexible and reusable.
+```
+cat output.txt
+# Output:
+# HELLO WORLD
+```
+
+## ✅ Constraints
+
+* No functions, classes, or abstractions — just top-to-bottom code.
+* Only built-in Python modules allowed.
+* Focused solely on behavior and correctness for now.
+
+## 📋 Task Checklist
+
+* ✅ Produces correct output for a sample file
+* ✅ Runs without errors from the command line
+* ✅ No refactoring or abstractions added yet
+
+```
+
+> This project is part of a progressive development exercise. Later levels will introduce refactoring, modularity, and testing.
+
+```
+

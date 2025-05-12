@@ -1,9 +1,8 @@
 pipeline:
+  - type: processors.stateful_counter.LineCounter
+    config:
+      prefix: "Line"
   - type: processors.upper.to_uppercase
-  - type: core.LineCounter
-    params:
-      start: 1
-      prefix: "[{line_num}] "
-  - type: core.LineSplitter
-    params:
-      delimiter: ","
+  - type: processors.fanout_splitter.SplitLines
+    config:
+      delimiter: " "

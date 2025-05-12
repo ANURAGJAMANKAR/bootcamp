@@ -1,20 +1,31 @@
-from typing import Optional
-
 import typer
+from pathlib import Path
+from core import run_pipeline
+from pipeline import load_pipeline
 
 app = typer.Typer()
 
 @app.command()
 def process(
-    input: str = typer.Option(..., help="Input file path"),
-    output: Optional[str] = typer.Option(None, help="Output file path (stdout if not specified)"),
-    config: str = typer.Option("pipeline.yaml", help="Pipeline configuration file"),
+        input: Path = typer.Option(...,help="Input file path"),
+        output: Path = typer.Option(None, help="Output file path"),
+        config: Path = typer.Option(..., help="Path to pipeline YAML config")
 ):
-    """Process a text file line by line using the pipeline defined in the config file."""
-    from .main import run_pipeline
-    
-    run_pipeline(input, output, config)
+    if not input.exists():
+        typer.echo(f"Input file {input} does not exist.")
+        raise typer.Exit(code=1)
 
-def run_cli():
-    """Run the CLI application."""
-    app()
+    # Read input lines as a stream
+    with input.open("r") as f:
+        lines = (line.rstrip("\n") for line in f)
+
+        processors = load_pipeline(str(config))
+        output_lines = run_pipeline(lines, processors)
+
+        if output:
+            with output.open("w") as out_file:
+                for line in output_lines:
+                    out_file.write(line + "\n")
+        else:
+            for line in output_lines:
+                print(line)

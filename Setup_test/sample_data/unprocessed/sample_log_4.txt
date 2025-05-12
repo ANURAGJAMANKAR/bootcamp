@@ -1,0 +1,100 @@
+2025-05-11 23:14:05 [CRITICAL] API: API failed successfully
+2025-05-11 23:14:05 [INFO] Frontend: Frontend started successfully
+2025-05-11 23:14:05 [DEBUG] Backend: Backend failed successfully
+2025-05-11 23:14:05 [INFO] Frontend: Frontend started successfully
+2025-05-11 23:14:05 [CRITICAL] Frontend: Frontend failed successfully
+2025-05-11 23:14:05 [DEBUG] Database: Database processing successfully
+2025-05-11 23:14:05 [ERROR] Backend: Backend started successfully
+2025-05-11 23:14:05 [DEBUG] API: API processing successfully
+2025-05-11 23:14:05 [INFO] Frontend: Frontend failed successfully
+2025-05-11 23:14:05|INFO|Frontend|Frontend completed successfully
+2025-05-11 23:14:05 [ERROR] API: IMPORTANT: This is an important message about API
+2025-05-11 23:14:05 [WARNING] Auth: Auth started successfully
+2025-05-11 23:14:05|DEBUG|Frontend|Frontend waiting successfully
+2025-05-11 23:14:05 [ERROR] Backend: Backend processing successfully
+2025-05-11 23:14:05 [CRITICAL] Database: Database processing successfully
+2025-05-11 23:14:05 [ERROR] Backend: Backend completed successfully
+2025-05-11 23:14:05 [ERROR] Frontend: Frontend failed successfully
+2025-05-11 23:14:05 [ERROR] Frontend: Frontend failed successfully
+2025-05-11 23:14:05 [WARNING] Database: Database started successfully
+2025-05-11 23:14:05 [WARNING] Backend: Backend failed successfully
+2025-05-11 23:14:05 [INFO] Auth: An error occurred in Auth while processing
+2025-05-11 23:14:05 [DEBUG] Auth: IMPORTANT: This is an important message about Auth
+2025-05-11 23:14:05 [DEBUG] Database: Database completed successfully
+2025-05-11 23:14:05 [CRITICAL] Backend: Backend failed successfully
+2025-05-11 23:14:05|DEBUG|Auth|Auth processing successfully
+2025-05-11 23:14:05 [WARNING] Frontend: Frontend completed successfully
+2025-05-11 23:14:05 [CRITICAL] Backend: Backend waiting successfully
+2025-05-11 23:14:05 [INFO] Auth: IMPORTANT: This is an important message about Auth
+2025-05-11 23:14:05 [ERROR] Auth: Auth completed successfully
+2025-05-11 23:14:05 [DEBUG] Database: Database processing successfully
+2025-05-11 23:14:05 [ERROR] API: API processing successfully
+2025-05-11 23:14:05 [DEBUG] Database: Database started successfully
+2025-05-11 23:14:05 [DEBUG] Backend: Backend started successfully
+2025-05-11 23:14:05 [WARNING] Frontend: Frontend failed successfully
+2025-05-11 23:14:05 [CRITICAL] Backend: Backend waiting successfully
+2025-05-11 23:14:05 [WARNING] Auth: Auth completed successfully
+2025-05-11 23:14:05 [DEBUG] Backend: Backend started successfully
+2025-05-11 23:14:05|DEBUG|Frontend|Frontend failed successfully
+2025-05-11 23:14:05|CRITICAL|Database|IMPORTANT: This is an important message about Database
+2025-05-11 23:14:05 [INFO] Frontend: An error occurred in Frontend while waiting
+2025-05-11 23:14:05 [ERROR] Auth: Auth completed successfully
+2025-05-11 23:14:05 [DEBUG] API: API started successfully
+2025-05-11 23:14:05|INFO|API|API processing successfully
+2025-05-11 23:14:05 [ERROR] Frontend: An error occurred in Frontend while processing
+2025-05-11 23:14:05 [CRITICAL] Frontend: An error occurred in Frontend while processing
+2025-05-11 23:14:05|WARNING|Backend|Backend waiting successfully
+2025-05-11 23:14:05|INFO|API|API failed successfully
+2025-05-11 23:14:05 [ERROR] Backend: An error occurred in Backend while waiting
+2025-05-11 23:14:05 [WARNING] Backend: Backend processing successfully
+2025-05-11 23:14:05 [WARNING] Database: IMPORTANT: This is an important message about Database
+2025-05-11 23:14:05 [WARNING] API: API completed successfully
+2025-05-11 23:14:05 [INFO] Database: Database completed successfully
+2025-05-11 23:14:05|DEBUG|Auth|Auth waiting successfully
+2025-05-11 23:14:05 [WARNING] Auth: Auth waiting successfully
+2025-05-11 23:14:05|CRITICAL|Frontend|Frontend processing successfully
+2025-05-11 23:14:05 [WARNING] Backend: IMPORTANT: This is an important message about Backend
+2025-05-11 23:14:05 [ERROR] API: API failed successfully
+2025-05-11 23:14:05 [CRITICAL] API: API failed successfully
+2025-05-11 23:14:05 [CRITICAL] API: IMPORTANT: This is an important message about API
+2025-05-11 23:14:05|ERROR|Database|Database completed successfully
+2025-05-11 23:14:05 [DEBUG] Frontend: Frontend started successfully
+2025-05-11 23:14:05|ERROR|Backend|An error occurred in Backend while started
+2025-05-11 23:14:05 [DEBUG] API: API failed successfully
+2025-05-11 23:14:05 [ERROR] API: API started successfully
+2025-05-11 23:14:05 [DEBUG] Database: Database completed successfully
+2025-05-11 23:14:05|INFO|Database|Database processing successfully
+2025-05-11 23:14:05|ERROR|Backend|Backend started successfully
+2025-05-11 23:14:05 [DEBUG] Database: Database completed successfully
+2025-05-11 23:14:05|CRITICAL|Database|Database started successfully
+2025-05-11 23:14:05|DEBUG|API|API started successfully
+2025-05-11 23:14:05 [INFO] Frontend: Frontend completed successfully
+2025-05-11 23:14:05 [DEBUG] Frontend: Frontend started successfully
+2025-05-11 23:14:05 [INFO] API: API started successfully
+2025-05-11 23:14:05 [CRITICAL] Auth: Auth failed successfully
+2025-05-11 23:14:05 [CRITICAL] Backend: Backend processing successfully
+2025-05-11 23:14:05 [WARNING] Backend: Backend failed successfully
+2025-05-11 23:14:05 [WARNING] Auth: IMPORTANT: This is an important message about Auth
+2025-05-11 23:14:05 [DEBUG] Database: Database waiting successfully
+2025-05-11 23:14:05 [WARNING] Auth: Auth waiting successfully
+2025-05-11 23:14:05 [DEBUG] Auth: IMPORTANT: This is an important message about Auth
+2025-05-11 23:14:05|ERROR|API|IMPORTANT: This is an important message about API
+2025-05-11 23:14:05 [INFO] Database: Database processing successfully
+2025-05-11 23:14:05 [DEBUG] Backend: Backend processing successfully
+2025-05-11 23:14:05 [DEBUG] Database: Database completed successfully
+2025-05-11 23:14:05|DEBUG|Auth|Auth waiting successfully
+2025-05-11 23:14:05|WARNING|Backend|Backend failed successfully
+2025-05-11 23:14:05 [INFO] Backend: Backend started successfully
+2025-05-11 23:14:05 [DEBUG] Database: IMPORTANT: This is an important message about Database
+2025-05-11 23:14:05 [ERROR] Backend: IMPORTANT: This is an important message about Backend
+2025-05-11 23:14:05 [WARNING] Frontend: Frontend waiting successfully
+2025-05-11 23:14:05 [ERROR] Database: Database failed successfully
+2025-05-11 23:14:05 [WARNING] Auth: Auth started successfully
+2025-05-11 23:14:05 [DEBUG] Frontend: Frontend completed successfully
+2025-05-11 23:14:05 [ERROR] Backend: Backend started successfully
+2025-05-11 23:14:05 [WARNING] API: An error occurred in API while processing
+2025-05-11 23:14:05|CRITICAL|Database|An error occurred in Database while processing
+2025-05-11 23:14:05 [CRITICAL] API: API started successfully
+2025-05-11 23:14:05 [CRITICAL] API: API processing successfully
+2025-05-11 23:14:05 [ERROR] Database: Database started successfully
+2025-05-11 23:14:05 [WARNING] Database: Database completed successfully
