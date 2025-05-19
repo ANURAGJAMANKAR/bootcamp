@@ -1,8 +1,0 @@
-[project]
-name = "day-one"
-version = "0.1.0"
-authors = [{ name = "ANURAG JAMANKAR", email = "anurag.jamankar.aj@gmail.com" }]
-description = "Here you'll get all the Developer Documentation"
-readme = "README.md"
-requires-python = ">=3.13"
-dependencies = []
