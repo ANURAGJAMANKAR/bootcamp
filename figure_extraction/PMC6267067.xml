@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE collection SYSTEM "BioC.dtd">
+<collection>
+  <source>PubMed Central</source>
+  <date>2023-05-19</date>
+  <key>bioc.key</key>
+  <document>
+    <id>PMC6267067</id>
+    <passage>
+      <infon key="type">title</infon>
+      <offset>0</offset>
+      <text>Cardiac Regeneration: Biological and Therapeutic Implications</text>
+    </passage>
+    <passage>
+      <infon key="type">abstract</infon>
+      <offset>105</offset>
+      <text>Heart failure remains a leading cause of morbidity and mortality worldwide. Despite advances in medical therapy and interventional approaches, the 5-year mortality rate for heart failure patients remains high. The limited regenerative capacity of the adult human heart is insufficient to overcome the massive loss of cardiomyocytes that occurs during myocardial infarction or other cardiac injuries. This review discusses recent advances in cardiac regeneration research, including studies of endogenous cardiac repair mechanisms, cell-based therapies, tissue engineering approaches, and small molecule-based strategies to enhance cardiac regeneration. We highlight the biological mechanisms underlying these approaches and their therapeutic implications for heart failure treatment.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>650</offset>
+      <text>The adult mammalian heart has limited regenerative capacity, with cardiomyocyte renewal rates estimated at less than 1%
